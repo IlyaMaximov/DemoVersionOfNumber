@@ -1,0 +1,3 @@
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir

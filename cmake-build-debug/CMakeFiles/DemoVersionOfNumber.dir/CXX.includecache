@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/Sorts.h
+
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+random
+-
+DemoVersionOfNumber.h
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+Sorts.h
+C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/Sorts.h
+
