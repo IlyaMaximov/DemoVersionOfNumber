@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DemoVersionOfNumber.dir/main.cpp.obj"
-  "DemoVersionOfNumber.exe"
-  "DemoVersionOfNumber.exe.manifest"
+  "CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o"
+  "DemoVersionOfNumber"
   "DemoVersionOfNumber.pdb"
-  "libDemoVersionOfNumber.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

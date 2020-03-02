@@ -5,92 +5,99 @@
 		<Option title="DemoVersionOfNumber"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DemoVersionOfNumber">
-				<Option output="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="DemoVersionOfNumber/fast">
-				<Option output="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoVersionOfNumber">
+				<Option output="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoVersionOfNumber/fast">
+				<Option output="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h">
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h">
 			<Option target="DemoVersionOfNumber"/>
 		</Unit>
-		<Unit filename="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/Sorts.h">
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h">
 			<Option target="DemoVersionOfNumber"/>
 		</Unit>
-		<Unit filename="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/main.cpp">
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/main.cpp">
 			<Option target="DemoVersionOfNumber"/>
 		</Unit>
-		<Unit filename="C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/CMakeLists.txt">
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

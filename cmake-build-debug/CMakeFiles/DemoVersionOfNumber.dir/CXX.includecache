@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
 
-C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/Sorts.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h
 
-C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/main.cpp
+/home/ilya/CLionProjects/DemoVersionOfNumber/main.cpp
 iostream
 -
 vector
@@ -19,8 +19,14 @@ algorithm
 -
 random
 -
+tuple
+-
+cmath
+-
+SFML/Graphics.hpp
+-
 DemoVersionOfNumber.h
-C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
 Sorts.h
-C:/Users/Xiaomi/CLionProjects/DemoVersionOfNumber/Sorts.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h
 

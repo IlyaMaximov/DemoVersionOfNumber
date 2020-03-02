@@ -2,75 +2,182 @@
 #include <vector>
 #include <algorithm>
 #include <random>
+#include <tuple>
+#include <cmath>
+#include <SFML/Graphics.hpp>
 
 #include "DemoVersionOfNumber.h"
 #include "Sorts.h"
 
-int main() {
-    std::random_device rd;
-    std::mt19937 mt(rd());
+std::random_device rd;
+int RAND_CONSTANT = rd();
+
+enum class SortType {
+    Bubble_Sort,
+    Merge_Sort,
+    Quick_Sort
+};
+
+struct SortConditions {
+    SortType sort_type;
+    size_t number_elements;
+};
+
+size_t get_sort_statistic(SortConditions info) {
+    std::mt19937 mt(RAND_CONSTANT);
     std::uniform_int_distribution<> gen(INT32_MIN, INT32_MAX);
 
-    //Test1
-    {
-        std::cout << "TEST 1 \n-----------------------------\n";
-        const int ARRAY_SIZE = 20;
-
-        std::vector<DemoVersionOfNumber<int>> quick_mass, merge_mass, bubble_mass;
-        for (int i = 0; i < ARRAY_SIZE; ++i) {
-            int value = gen(mt);
-            bubble_mass.emplace_back(value);
-            merge_mass.emplace_back(value);
-            quick_mass.emplace_back(value);
-        }
-
-        BubbleSort(bubble_mass.begin(), bubble_mass.end());
-        MergeSort(merge_mass.begin(), merge_mass.end());
-        std::sort(quick_mass.begin(), quick_mass.end());
-
-        for (auto &elem: bubble_mass) {
-            std::cout << elem.getComparisonOperation() << " ";
-        }
-        std::cout << '\n';
-
-        for (auto &elem: merge_mass) {
-            std::cout << elem.getComparisonOperation() << " ";
-        }
-        std::cout << '\n';
-
-        for (auto &elem: quick_mass) {
-            std::cout << elem.getComparisonOperation() << " ";
-        }
-        std::cout << "\n\n";
+    size_t ARRAY_SIZE = info.number_elements;
+    std::vector<DemoVersionOfNumber<int>> mass;
+    mass.reserve(ARRAY_SIZE);
+    for (int i = 0; i < ARRAY_SIZE; ++i) {
+        mass.emplace_back(gen(mt));
     }
 
-    //Test2
+    if (info.sort_type == SortType::Bubble_Sort) {
+        BubbleSort(mass.begin(), mass.end());
+    } else if (info.sort_type == SortType::Merge_Sort) {
+        MergeSort(mass.begin(), mass.end());
+    } else {
+        std::sort(mass.begin(), mass.end());
+    }
+
+    size_t number_conditions = 0;
+    for (int i = 0; i < ARRAY_SIZE; ++i) {
+        number_conditions += mass[i].getComparisonOperation();
+    }
+    return std::sqrt(number_conditions);
+}
+
+void draw_coordinate_axis(sf::RenderWindow& window) {
+    float line_width = 2;
+    float arrow_rot = 20.f;
+
+    sf::RectangleShape vertical_line(sf::Vector2f(750.f, line_width));
+    vertical_line.setFillColor(sf::Color::Black);
+    vertical_line.rotate(90.f);
+    vertical_line.setPosition(50, 25);
+
+    sf::RectangleShape vertical_arrow1(sf::Vector2f(25.f, line_width));
+    vertical_arrow1.setFillColor(sf::Color::Black);
+    vertical_arrow1.setPosition(50, 25);
+    sf::RectangleShape vertical_arrow2 = vertical_arrow1;
+    vertical_arrow1.rotate(90.f - arrow_rot);
+    vertical_arrow2.rotate(90.f + arrow_rot);
+
+
+    sf::RectangleShape horizontal_line(sf::Vector2f(1350.f, line_width));
+    horizontal_line.setFillColor(sf::Color::Black);
+    horizontal_line.setPosition(25, 750);
+
+    sf::RectangleShape horizontal_arrow1(sf::Vector2f(30.f, line_width));
+    horizontal_arrow1.setFillColor(sf::Color::Black);
+    horizontal_arrow1.setPosition(1375, 750 + line_width);
+    sf::RectangleShape horizontal_arrow2 = horizontal_arrow1;
+    horizontal_arrow1.rotate(180.f + arrow_rot);
+    horizontal_arrow2.rotate(180.f - arrow_rot);
+
+
+    window.draw(vertical_line);
+    window.draw(vertical_arrow1);
+    window.draw(vertical_arrow2);
+
+    window.draw(horizontal_line);
+    window.draw(horizontal_arrow1);
+    window.draw(horizontal_arrow2);
+}
+
+void draw_sort_graph(SortType sort_type, sf::Color color_graph, sf::RenderWindow& window) {
+    size_t MAX_ELEMENTS = 1300;
+    size_t STEP = 1;
+    if (sort_type == SortType::Bubble_Sort) {
+        MAX_ELEMENTS = 380;
+    }
+
+    sf::Vertex vertices[2];
+    vertices[0] = sf::Vertex(sf::Vector2f(50, 750), color_graph);
+    size_t elements_tmp = 0;
+    while (elements_tmp != MAX_ELEMENTS) {
+        elements_tmp += 1;
+        float num_oper = get_sort_statistic({sort_type, elements_tmp});
+        vertices[1] = sf::Vertex(sf::Vector2f(50 + elements_tmp, 750 - num_oper), color_graph);
+        window.draw(vertices, 2, sf::Lines);
+        vertices[0] = vertices[1];
+    }
+}
+
+void draw_explanatory_text(sf::RenderWindow& window) {
+    sf::Font font;
+    if (!font.loadFromFile("arial.ttf")) {
+        throw std::runtime_error("");
+    }
+
+    sf::Text text;
+    text.setFont(font);
+    text.setString("Bubble Sort");
+    text.setCharacterSize(24);
+    text.setFillColor(sf::Color::Red);
+    text.setPosition(440, 50);
+    window.draw(text);
+
+    text.setString("Merge Sort");
+    text.setFillColor(sf::Color::Blue);
+    text.setPosition(1230, 610);
+    window.draw(text);
+
+    text.setString("Quick Sort");
+    text.setFillColor(sf::Color::Green);
+    text.setPosition(1230, 550);
+    window.draw(text);
+
+
+    text.setString("Graph of function of the form");
+    text.setFillColor(sf::Color::Black);
+    text.setPosition(450, 300);
+    window.draw(text);
+
+    text.setString("SQRT(NUMBER_OF_COMPARISONS)");
+    text.setPosition(450, 330);
+    window.draw(text);
+}
+
+void draw_picture(sf::RenderWindow& window) {
+    sf::Texture texture;
+    texture.loadFromFile("picture.jpg");
+    sf::Sprite picture(texture);
+    picture.scale(0.5f, 0.5f);
+    picture.setPosition(900, 0);
+
+    window.draw(picture);
+}
+
+
+int main() {
+
+    sf::ContextSettings settings;
+    settings.antialiasingLevel = 8;
+
+    sf::RenderWindow window(sf::VideoMode(1400, 800),
+            "Plotting the effectiveness of standard sorts", sf::Style::Default, settings);
+
+    while (window.isOpen())
     {
-        std::cout << "TEST 2 \n-----------------------------\n";
-        std::cout << "Sorting an array of size 10000\n";
-        const int ARRAY_SIZE = 10000;
-
-        std::vector<DemoVersionOfNumber<int>> quick_mass, merge_mass, bubble_mass;
-        for (int i = 0; i < ARRAY_SIZE; ++i) {
-            int value = gen(mt);
-            bubble_mass.emplace_back(value);
-            merge_mass.emplace_back(value);
-            quick_mass.emplace_back(value);
+        sf::Event event{};
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
         }
+        window.clear(sf::Color(245, 245, 245, 0));
 
-        BubbleSort(bubble_mass.begin(), bubble_mass.end());
-        MergeSort(merge_mass.begin(), merge_mass.end());
-        std::sort(quick_mass.begin(), quick_mass.end());
+        draw_coordinate_axis(window);
+        draw_sort_graph(SortType::Bubble_Sort, sf::Color::Red, window);
+        draw_sort_graph(SortType::Merge_Sort, sf::Color::Blue, window);
+        draw_sort_graph(SortType::Quick_Sort, sf::Color::Green, window);
+        draw_explanatory_text(window);
+        draw_picture(window);
 
-        long long bubble_cnt = 0, merge_cnt = 0, quick_cnt = 0;
-        for (int i = 0; i < ARRAY_SIZE; ++i) {
-            bubble_cnt += bubble_mass[i].getComparisonOperation();
-            merge_cnt += merge_mass[i].getComparisonOperation();
-            quick_cnt += quick_mass[i].getComparisonOperation();
-        }
-        std::cout << "Total number of comparisons in Bubble Sort: " << bubble_cnt << '\n';
-        std::cout << "Total number of comparisons in Merge Sort : " << merge_cnt << '\n';
-        std::cout << "Total number of comparisons in Quick Sort : " << quick_cnt << '\n';
+        window.display();
     }
     return 0;
 }
