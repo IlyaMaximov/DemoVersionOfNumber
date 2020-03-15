@@ -8,6 +8,6 @@ set(CMAKE_MODULE_PATH "/usr/share/SFML/cmake/Modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2.4.2 COMPONENTS graphics audio REQUIRED)
 
 
-add_executable(DemoVersionOfNumber main.cpp DemoVersionOfNumber.h Sorts.h)
+add_executable(DemoVersionOfNumber main.cpp DemoVersionOfNumber.h Sorts.h Graph.cpp Graph.h Chart.cpp Chart.h)
 
 target_link_libraries(DemoVersionOfNumber sfml-graphics sfml-window sfml-system)

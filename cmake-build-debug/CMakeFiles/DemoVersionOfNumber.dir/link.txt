@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o  -o DemoVersionOfNumber -lsfml-graphics -lsfml-window -lsfml-system 
+/usr/bin/c++  -g   CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.o CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.o  -o DemoVersionOfNumber -lsfml-graphics -lsfml-window -lsfml-system 

@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.cpp">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.cpp">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.h">
 			<Option target="DemoVersionOfNumber"/>
 		</Unit>
 		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h">

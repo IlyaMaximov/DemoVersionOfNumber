@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.o"
+  "CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.o"
   "CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o"
   "DemoVersionOfNumber"
   "DemoVersionOfNumber.pdb"

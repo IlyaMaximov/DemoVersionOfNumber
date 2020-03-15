@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.cpp" "/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.o"
+  "/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.cpp" "/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.o"
   "/home/ilya/CLionProjects/DemoVersionOfNumber/main.cpp" "/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

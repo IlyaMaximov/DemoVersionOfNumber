@@ -1,6 +1,8 @@
 #ifndef DEMOVERSIONOFNUMBER_DEMOVERSIONOFNUMBER_H
 #define DEMOVERSIONOFNUMBER_DEMOVERSIONOFNUMBER_H
 
+#include <iostream>
+
 template <typename T>
 class DemoVersionOfNumber;
 
@@ -115,8 +117,12 @@ public:
         return value_;
     }
 
-    [[nodiscard]] size_t getComparisonOperation() const {
+    [[nodiscard]] size_t getCompOperationCnt() const {
         return comparison_operation_num_;
+    }
+
+    [[nodiscard]] size_t getAssignmentOperationCnt() const {
+        return assignment_num_;
     }
 
 private:

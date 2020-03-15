@@ -1,6 +1,9 @@
 #ifndef DEMOVERSIONOFNUMBER_SORTS_H
 #define DEMOVERSIONOFNUMBER_SORTS_H
 
+#include <vector>
+#include <algorithm>
+
 template <class T>
 void Swap(T& lhs, T& rhs) {
     T tmp = lhs;
@@ -43,4 +46,10 @@ void MergeSort(RandomIt range_begin, RandomIt range_end) {
     merge(range_begin, mid, mid, range_end, back_inserter(arr_tmp));
     std::copy(arr_tmp.begin(), arr_tmp.end(), range_begin);
 }
+
+template <typename RandomIt>
+void QuickSort(RandomIt range_begin, RandomIt range_end) {
+    std::sort(range_begin, range_end);
+}
+
 #endif //DEMOVERSIONOFNUMBER_SORTS_H

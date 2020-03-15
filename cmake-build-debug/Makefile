@@ -123,6 +123,60 @@ DemoVersionOfNumber/fast:
 	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/build
 .PHONY : DemoVersionOfNumber/fast
 
+Chart.o: Chart.cpp.o
+
+.PHONY : Chart.o
+
+# target to build an object file
+Chart.cpp.o:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.o
+.PHONY : Chart.cpp.o
+
+Chart.i: Chart.cpp.i
+
+.PHONY : Chart.i
+
+# target to preprocess a source file
+Chart.cpp.i:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.i
+.PHONY : Chart.cpp.i
+
+Chart.s: Chart.cpp.s
+
+.PHONY : Chart.s
+
+# target to generate assembly for a file
+Chart.cpp.s:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Chart.cpp.s
+.PHONY : Chart.cpp.s
+
+Graph.o: Graph.cpp.o
+
+.PHONY : Graph.o
+
+# target to build an object file
+Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
+
+Graph.i: Graph.cpp.i
+
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/DemoVersionOfNumber.dir/build.make CMakeFiles/DemoVersionOfNumber.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DemoVersionOfNumber"
 	@echo "... edit_cache"
+	@echo "... Chart.o"
+	@echo "... Chart.i"
+	@echo "... Chart.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
