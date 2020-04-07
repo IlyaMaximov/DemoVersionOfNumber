@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DemoVersionOfNumber"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\SFML\;CMake Files\..\..\..\..\usr\share\SFML\cmake\;CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoVersionOfNumber">
+				<Option output="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DemoVersionOfNumber/fast">
+				<Option output="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/DemoVersionOfNumber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 DemoVersionOfNumber/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ilya/CLionProjects/DemoVersionOfNumber/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.cpp">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.cpp">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/main.cpp">
+			<Option target="DemoVersionOfNumber"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ilya/CLionProjects/DemoVersionOfNumber/../../../../usr/share/SFML/cmake/Modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\SFML\cmake\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

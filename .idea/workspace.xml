@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="DemoVersionOfNumber" targetName="DemoVersionOfNumber" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad894cc3-2ed6-4287-87f4-f6883deef6db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chart.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DemoVersionOfNumber.h" beforeDir="false" afterPath="$PROJECT_DIR$/DemoVersionOfNumber.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorts.h" beforeDir="false" afterPath="$PROJECT_DIR$/Sorts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DemoVersionOfNumber.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DemoVersionOfNumber" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DemoVersionOfNumber" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DemoVersionOfNumber.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DemoVersionOfNumber.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xsj0R8V66tZyZttHlvSfJo2keK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoVersionOfNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DemoVersionOfNumber" TARGET_NAME="DemoVersionOfNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DemoVersionOfNumber" RUN_TARGET_NAME="DemoVersionOfNumber">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad894cc3-2ed6-4287-87f4-f6883deef6db" name="Default Changelist" comment="" />
+      <created>1581841472097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581841472097</updated>
+      <workItem from="1581841473591" duration="6898000" />
+      <workItem from="1581854835556" duration="12128000" />
+      <workItem from="1581875010600" duration="12738000" />
+      <workItem from="1581945678591" duration="44000" />
+      <workItem from="1581960906867" duration="15000" />
+      <workItem from="1581973767214" duration="770000" />
+      <workItem from="1582147906278" duration="49000" />
+      <workItem from="1582384727322" duration="684000" />
+      <workItem from="1582396688711" duration="7507000" />
+      <workItem from="1582457270789" duration="2093000" />
+      <workItem from="1582459374084" duration="20034000" />
+      <workItem from="1582487781115" duration="24000" />
+      <workItem from="1582487963088" duration="7000" />
+      <workItem from="1582496769772" duration="29000" />
+      <workItem from="1582525883970" duration="283000" />
+      <workItem from="1583180409577" duration="2486000" />
+      <workItem from="1583185604302" duration="383000" />
+      <workItem from="1583604607732" duration="23000" />
+      <workItem from="1584257240074" duration="19739000" />
+      <workItem from="1584280071753" duration="8997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582405953890">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582405953890" />
+    <state width="541" height="568" key="DebuggerActiveHint" timestamp="1584276909447">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="541" height="568" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1584276909447" />
+    <state x="729" y="254" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583604629122">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582147953338" />
+    <state x="729" y="254" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1583604629122" />
+    <state width="1807" height="162" key="GridCell.Tab.0.bottom" timestamp="1584290396577">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582147954502" />
+    <state width="1807" height="162" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396577" />
+    <state width="1807" height="162" key="GridCell.Tab.0.center" timestamp="1584290396577">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582147954502" />
+    <state width="1807" height="162" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396577" />
+    <state width="1807" height="162" key="GridCell.Tab.0.left" timestamp="1584290396576">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582147954502" />
+    <state width="1807" height="162" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396576" />
+    <state width="1807" height="162" key="GridCell.Tab.0.right" timestamp="1584290396577">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582147954502" />
+    <state width="1807" height="162" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396577" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1584290396535">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396535" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1584290396535">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396535" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1584290396534">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396534" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1584290396535">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584290396535" />
+    <state x="273" y="117" width="1257" height="730" key="SettingsEditor" timestamp="1582459352791">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="273" y="117" width="1257" height="730" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1582459352791" />
+    <state x="628" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1584280078727">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="465" y="255" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581960906901" />
+    <state x="628" y="338" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1584280078727" />
+    <state x="560" y="162" width="857" height="781" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582405605383">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="560" y="162" width="857" height="781" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582405605383" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1581882677591">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1581882677591" />
+  </component>
+</project>

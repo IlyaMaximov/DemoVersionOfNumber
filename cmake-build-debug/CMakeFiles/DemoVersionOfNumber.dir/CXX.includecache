@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.cpp
+Chart.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.h
+Graph.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.h
+
+/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.h
+random
+-
+SFML/Graphics.hpp
+-
+DemoVersionOfNumber.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+Sorts.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h
+
+/home/ilya/CLionProjects/DemoVersionOfNumber/DemoVersionOfNumber.h
+iostream
+-
+
+/home/ilya/CLionProjects/DemoVersionOfNumber/Graph.h
+iostream
+-
+vector
+-
+string
+-
+Chart.h
+/home/ilya/CLionProjects/DemoVersionOfNumber/Chart.h
+
+/home/ilya/CLionProjects/DemoVersionOfNumber/Sorts.h
+vector
+-
+algorithm
+-
+
